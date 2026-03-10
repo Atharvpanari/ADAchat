@@ -1,0 +1,33 @@
+{
+  "name": "adachat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atharvpanari/ADAchat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Atharvpanari/ADAchat/issues"
+  },
+  "homepage": "https://github.com/Atharvpanari/ADAchat#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "connect-mongo": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.2.4",
+    "nodemailer": "^8.0.2",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
+  }
+}
